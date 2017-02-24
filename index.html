@@ -10,7 +10,6 @@
 
     <!-- style -->
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
   </head>
 
   <body>
@@ -18,15 +17,19 @@
 
       <div id="searchbox">
         <!-- klaz@internet ~ $ search -->
-        <h3><span class="blue">klaz</span>@<span class="violet">internet</span> <span class="magenta">~</span> <span class="blue">$</span> <span class="green">search</span></h3>
-        <!-- search -->
+        <h3><span class="blue">v</span>@<span class="violet">internet</span> <span class="magenta">~</span> <span class="blue">$</span></h3>
+        <!-- search box -->
         <input type="text" id="search" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="autofocus" spellcheck="false" placeholder="" onkeypress="searchKeyPress(event)"></input>
-      </div> <!-- end searchbox -->
+        <div id="time">
+          <script type="text/javascript" src="assets/time.js"></script>
+        </div>
+
+      </div> <!-- end search -->
 
       <div id="links">
         <div class="box">
           <!-- ~ $ cd ~/general -->
-          <h3><span class="magenta">~</span> <span class="blue">$</span> <span class="orange">cd</span> ~/<span class="green">general</span></h3>
+          <h3>~/<span class="green">general</span></h3>
           <a href="https://calendar.google.com/">calendar</a>
           <a href="https://mail.google.com/">gmail</a>
           <a href="https://www.fastmail.com/login/">fastmail</a>
@@ -37,7 +40,7 @@
 
         <div class="box">
           <!-- ~ $ cd ~/reddit -->
-          <h3><span class="magenta">~</span> <span class="blue">$</span> <span class="orange">cd</span> ~/<span class="green">reddit</span></h3>
+          <h3>~/<span class="green">reddit</span></h3>
           <a href="https://www.reddit.com/">front page</a>
           <a href="https://www.reddit.com/r/games/">/r/games</a>
           <a href="https://www.reddit.com/r/battlestations/">/r/battlestations</a>
@@ -49,7 +52,7 @@
 
         <div class="box">
           <!-- ~ $ cd ~/nerd -->
-          <h3><span class="magenta">~</span> <span class="blue">$</span> <span class="orange">cd</span> ~/<span class="green">nerd</span></h3>
+          <h3>~/<span class="green">nerd</span></h3>
           <a href="https://github.com/">github</a>
           <a href="http://gog.com/">gog</a>
           <a href="http://store.steampowered.com/">steam</a>
@@ -61,7 +64,6 @@
 
     </div> <!-- end container -->
 
-    <!-- commands script -->
     <script type="text/javascript" src="assets/search.js"></script>
 
   </body>
